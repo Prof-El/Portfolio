@@ -6,6 +6,12 @@ import movie_app from '../images/movie-app.png'
 import gallery_app from '../images/gallery-app.png'
 import github from '../images/github.jpg'
 import linkedin from '../images/linkedin2.jpg'
+import html from '../images/html.jpg'
+import css from '../images/css.jpg'
+import javascript from '../images/javascript.jpg'
+import python from '../images/python.jpg'
+import git from '../images/git.jpg'
+import sql from '../images/sql.jpg'
 
 
 
@@ -15,7 +21,7 @@ const About = () => {
 
 
     return(
-        <>
+        <div className="home">
             <div style={{width: '100%', height: 30, marginBottom: 20}} className="nav-bar">
                 
                 <div style={{display: 'flex'}}>
@@ -37,7 +43,7 @@ const About = () => {
                     </div>
                      
                     <div className="intro">
-                        <p style={{textAlign: 'left'}}>Greetings, I'm <span style={{color: 'red'}}>Emmanuel</span>, a <span style={{color: 'red'}}>Frontend Engineer</span> weaving digital enchantments with code. I'm a staunch advocate for inclusive design, ensuring the web is accessible to all. 
+                        <p style={{textAlign: 'left'}}>Greeting. I'm <span style={{color: 'red'}}>Emmanuel</span>, a <span style={{color: 'red'}}>Frontend Engineer</span> weaving digital enchantments with code. I'm a staunch advocate for inclusive design, ensuring the web is accessible to all. 
                             Beyond the screen, I explore nature, capture moments through photography, and find inspiration in the pages of a good book. 
                            
                         </p>
@@ -73,6 +79,18 @@ const About = () => {
                    </div>
                   
                 </div>
+                <div className="tools">
+                    <h2 style={{marginTop: 20, marginBottom: 15}} className="header">Tools</h2>
+                    <div style={{display: 'flex', flexWrap: 'wrap'}}>
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={html} />
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={css} />
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={javascript} />
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={python} />
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={sql} />
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={git} />
+                        <img className="icon" style={{width: 50, marginRight: 5,  marginBottom: 5}} src={github} />
+                    </div>
+                </div>
                 <div className="contacts">
                     <h2 style={{marginTop: 20, marginBottom: 15}} className="header">Leave Me a Messge</h2>
                     <p>Email: emmyblaze777@gmail.com</p>
@@ -83,7 +101,7 @@ const About = () => {
 
         </div>
         
-        </>
+        </div>
         
     )
 }
