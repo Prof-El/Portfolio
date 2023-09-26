@@ -10,11 +10,11 @@
 }
 
 .nav-bar {
-    padding: 10px;
-    border-bottom: 10px;
+    padding-bottom: 10px;
+    
     display: flex;
     justify-content: space-between;
-   
+    
 }
 
 .personal-info {
