@@ -42,14 +42,14 @@ const About = () => {
             <div className="huge-text">
                 <h2 className="header">Sample Projects</h2>
                 <div className="projects">
-                    <a className="movie-app" href="https://app.netlify.com/sites/incomparable-llama-171f45/" target="_blank">
+                    <a className="movie-app" href="https://incomparable-llama-171f45.netlify.app/" target="_blank">
                         
                             <img src={movie_app} />
                             <p>Movie App</p>
                         
                     </a>
                    
-                   <a className="gallery-app" href="https://app.netlify.com/sites/lighthearted-cajeta-f5f0e2/ " target="_blank">
+                   <a className="gallery-app" href="https://lighthearted-cajeta-f5f0e2.netlify.app/ " target="_blank">
                         <img src={gallery_app} />
                         <p>Gallery App</p>
                    </a>
