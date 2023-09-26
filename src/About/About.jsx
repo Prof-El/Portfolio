@@ -19,7 +19,7 @@ const About = () => {
             <div style={{width: '100%', height: 30, marginBottom: 20}} className="nav-bar">
                 
                 <a href="https://github.com/Prof-El/HNGx_Internship/tree/661eee1591a46f57816edd7a3cfccca37644a11b" target="_blank">
-                    <img style={{width: 40, borderRadius: 25}} src={github} />
+                    <img className="icon" style={{width: 40, borderRadius: 25}} src={github} />
                 </a>
                 <h2>Frontend <br /> <span>Developer</span></h2>
                

@@ -17,11 +17,24 @@
     
 }
 
+
+
+
+
 .personal-info {
     box-shadow: 0px 5px 26px 0px rgba(248, 246, 246, 0.22), 0px 20px 28px 0px rgb(0 0 0 / 30%);
+   
+ 
+}
+
+.personal-info:hover {
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .info-card {
+    background-color: #242424;
     width: 80%;
     box-shadow: 0px 5px 26px 0px rgba(248, 246, 246, 0.22), 0px 20px 28px 0px rgb(0 0 0 / 30%);
 }
@@ -84,7 +97,7 @@
 }
 
 .intro {
-    
+    background-color: #242424;
     margin-top: -5px;
     border-radius: 20px;
     padding: 7px;
@@ -98,6 +111,12 @@
 .intro > p {
     font-size: 14px;
     font-weight: 500;
+}
+
+.intro:hover {
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .projects {
@@ -158,6 +177,12 @@ a {
     width: 45%;
     aspect-ratio: 2;
     box-shadow: 0px 5px 26px 0px rgba(248, 246, 246, 0.22), 0px 20px 28px 0px rgb(0 0 0 / 30%);
+}
+
+.service:hover {
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 
