@@ -2,7 +2,7 @@
   width: 100%;;
   margin: 0 auto;
   text-align: center;
-  overflow: auto;
+  /* overflow: auto; */
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
