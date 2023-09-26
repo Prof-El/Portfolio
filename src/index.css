@@ -16,3 +16,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  overflow-y: auto; /* Add vertical scrollbars only when necessary */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
