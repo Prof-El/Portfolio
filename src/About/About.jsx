@@ -5,7 +5,7 @@ import profile_pic from '../images/my-pic.jpg'
 import movie_app from '../images/movie-app.png'
 import gallery_app from '../images/gallery-app.png'
 import github from '../images/github.jpg'
-import linkedin from '../images/linkedin.jpg'
+import linkedin from '../images/linkedin2.jpg'
 
 
 
@@ -18,9 +18,14 @@ const About = () => {
         <>
             <div style={{width: '100%', height: 30, marginBottom: 20}} className="nav-bar">
                 
-                <a href="https://github.com/Prof-El/HNGx_Internship/tree/661eee1591a46f57816edd7a3cfccca37644a11b" target="_blank">
-                    <img className="icon" style={{width: 40, borderRadius: 25}} src={github} />
+                <div style={{display: 'flex'}}>
+                    <a href="https://github.com/Prof-El/HNGx_Internship/tree/661eee1591a46f57816edd7a3cfccca37644a11b" target="_blank">
+                        <img className="icon" style={{width: 36, borderRadius: 25, marginRight: 5}} src={github} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/abel-emmanuel-a7270119a/" target="_blank">
+                    <img className="icon" style={{width: 36, borderRadius: 25, marginRight: 5}} src={linkedin} />
                 </a>
+                </div>
                 <h2>Frontend <br /> <span>Developer</span></h2>
                
             </div>
